@@ -1,3 +1,4 @@
+#code for using characters to edit ascii art.
 print("please provide a character to represent beeps eyes")
 eye = input()
 

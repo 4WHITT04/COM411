@@ -2,6 +2,7 @@
 print("I am doing some painting, what direction should i paint first?")
 direction = input()
 
+#if and elif statements for determining output.
 if (direction == "up"):
   print("Okay, i'll paint upwards!")
 #first use of an elif statement
@@ -14,5 +15,6 @@ elif (direction == "right"):
 elif (direction == "down"):
   print("Okay, i'll paint downwards!")
 
+#else statement for an invalid entry.
 else:
   print("Invalid direction!")
