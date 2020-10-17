@@ -3,6 +3,7 @@ print("Hi, Beep here! I'm going on an adventure, should i got on a long, short, 
 
 storytype = input()
 
+#if statement featuring an or operator.
 if ((storytype == "long") or (storytype == "safe")):
   print("I'll take the safe route through the garden!")
 
