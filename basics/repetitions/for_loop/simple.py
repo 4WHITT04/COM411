@@ -1,4 +1,5 @@
 print("Hey Bop! i see some mountains over there, how many mountains do i see?")
+#initial user input
 rangeno = int(input())
 
 for count in range(0,rangeno, 1):
