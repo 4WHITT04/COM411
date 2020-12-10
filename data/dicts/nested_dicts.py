@@ -19,7 +19,7 @@ def long_pattern():
 
 def run():
 
-  print ("Time to analyze these patterns, beep!")
+  print ("Time to analyze these patterns!")
 
   group_dicts = {"short sequence":short_pattern(),
 
