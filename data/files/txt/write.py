@@ -13,7 +13,7 @@ def search (filename):
 
       if line.startswith("Section"):
         
-        secname = line.slit(":"[1])
+        secname = line.split(":")[1]
         
         sections.append(secname.strip())
       else: 
@@ -23,7 +23,7 @@ def search (filename):
 
   return(sections, bookname)
 
-  def save (filename, datastore):
+def save (filename, datastore):
 
     print("Saving information....")
 
